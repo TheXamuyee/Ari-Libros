@@ -587,3 +587,9 @@ form button {
         margin: 0 10%;
     }
 }
+
+@media (max-width: 310px) {
+    .resenas-container {
+        margin: 0 ;
+    }
+}
