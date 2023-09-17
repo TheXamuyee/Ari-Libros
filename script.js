@@ -5,3 +5,10 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
 };
+
+let darkModeIcon = document.querySelector('#darkMode-icon');
+
+darkModeIcon.onclick = () => {
+    darkModeIcon.classList.toggle('bx-sun');
+    document.body.classList.toggle('dark-mode');
+};
