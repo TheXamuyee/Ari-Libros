@@ -16,10 +16,11 @@
 }
 
 .dark-mode {
-    --bg-color: #0b061f;
-    --main-color: #0b061f;
+    --bg-color: #17191a;
+    --main-color: #17191a;
     --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .7);
+    --white-color: #17191a;
+    --shadow-color: rgba(78, 78, 78, 0.7);
 }
 
 html {
@@ -179,12 +180,13 @@ section {
 }
 
 .resenas {
-    background: var(--main-color);
+    background: #d5c7e0;
 }
 
 .heading {
     font-size: 4.5rem;
     text-align: center;
+    color: var(--text-color);
 }
 
 .resenas h2 {
@@ -255,11 +257,11 @@ section {
     display: flex;
     overflow: hidden;
     background: #fff;
-    box-shadow: 0 5px 10px #00000033;
+    box-shadow: 0 5px 10px var(--shadow-color);
     border-radius: 10px;
     gap: 20px;
     margin: 20px;
-    background: #d5c7e0;
+    background: var(--main-color);
 }
 
 .novedades-container .img-novedades {
@@ -300,7 +302,7 @@ section {
 
 .novedades-container .content .title h3 {
     font-size: 14;
-    color: #000;
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -317,7 +319,7 @@ section {
     justify-content: center;
     width: 100%;
     margin-top: 150px;
-    background: var(--main-color);
+    background: #d5c7e0;
 }
 
 .relatos h2 {
@@ -346,7 +348,7 @@ section {
 
 .comment-relatos{
     width: 500px;
-    background: white;
+    background: var(--white-color);
     padding: 20px;
     margin: 15px;
     border-radius: 8px;
@@ -382,12 +384,12 @@ section {
 }
 
 .name strong{
-    color: black;
+    color: var(--text-color);
     font-size: 18px;
 }
 
 .comment p{
-    color: black;
+    color: var(--text-color);
 }
 
 .footer {
